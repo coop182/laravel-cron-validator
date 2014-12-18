@@ -4,9 +4,9 @@
 
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `coop182/laravel-cron-validator`.
 
-	"require": {
-		"coop182/laravel-cron-validator": "0.*"
-	}
+    "require": {
+        "coop182/laravel-cron-validator": "0.*"
+    }
 
 Next, update Composer from the Terminal:
 
@@ -18,9 +18,9 @@ Once this operation completes, the final step is to add the service provider. Op
     
 ## Usage
 
-Add the following to your Model's rules
+Add the following to your Model's validation rules
 
     // Add your validation rules here
-	  public static $rules = [
-		    'cron_field' => 'cron_expression'
-	  ];
+    public static $rules = [
+        'cron_field' => 'cron_expression'
+    ];
