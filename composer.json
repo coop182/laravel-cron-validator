@@ -15,5 +15,5 @@
         "psr-4": {
             "Coop182\\LaravelCronValidator\\": "src/"
         }
-    },
+    }
 }
